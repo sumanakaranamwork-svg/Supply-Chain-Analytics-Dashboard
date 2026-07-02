@@ -64,31 +64,6 @@ Key Business Insights
 - A significant percentage of orders experienced delivery delays.
 - A small group of customers contributed a large share of total revenue.
 
-Project Structure
-
-```
-Supply-Chain-Analytics-Dashboard
-│
-├── Databricks
-│   ├── 01_Data_Loading.ipynb
-│   └── 02_SQL_Analysis.ipynb
-│
-├── SQL
-│   └── 02_SQL_Analysis.sql
-│
-├── Power BI
-│   └── Supply_Chain_Analytics.pbix
-│
-├── Dataset
-│   └── SupplyChainDataset.csv
-│
-├── Images
-│   ├── dashboard_page1.jpeg
-│   └── dashboard_page2.jpeg
-│
-└── README.md
-```
-
 Dashboard Preview
 
  Executive Dashboard
@@ -98,13 +73,6 @@ Dashboard Preview
  Customer & Operations Analysis
 
 ![Customer & Operations Analysis](Images/dashboard_page2.jpeg)
-
-Future Improvements
-
-- Build a real-time dashboard using a live data source.
-- Connect Power BI directly to Databricks in a production environment.
-- Add predictive analytics for demand forecasting and delivery delay prediction.
-- Develop additional KPIs for inventory and supplier performance.
 
 Author
 Sumana Karanam
